@@ -26,7 +26,8 @@ long long combi(int n, int r) {
 
 
 int main() {		
-	int n = 20000000;
-    for(int i=0;i<5;i++) cout<<(10<<2)<<endl;
+	int n = 16385;
+    bitset<16> a = n;
+    cout<<a<<endl;
     return 0;
 }
