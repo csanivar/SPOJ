@@ -26,8 +26,9 @@ long long combi(int n, int r) {
 
 
 int main() {		
-	int n = 16385;
-    bitset<16> a = n;
-    cout<<a<<endl;
+	string n ="askdjkasdjaksdjalksdjalksdjaksldjaksdjalksdjaskldjaklsdjalksdjalskdjalksdjalksjdlaksjdalksdjaklsjfklasdjalsjdaklsjdakldjaksldjaskdjaslkdsa";
+    bitset<16> a;
+    vector<long long> d;
+    cout<<d.max_size()<<endl;
     return 0;
 }
